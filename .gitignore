@@ -11,4 +11,4 @@
 hs_err_pid*
 .idea/
 .DS_Store
-target/maven-archiver/
+target/

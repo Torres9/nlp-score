@@ -37,5 +37,5 @@ Here is one method of installing all the necessary dependencies on a Mac via Hom
 
 ### Run the code
     $ cd /path/to/nlp-score
-    $ java -cp target/*.jar com.lindt.Score <gmail-account> <gmail-passwd> <absolute-path-to-upload-file>
-    
+    $ mvn clean package
+    $ java -cp target/score-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.lindt.Score <gmail-account> <gmail-passwd> <absolute-path-to-upload-file>
