@@ -50,7 +50,7 @@ public class Score {
         }
         HtmlInput file = uploadForm.getInputByName("file");
         file.setValueAttribute(args[2]);
-        HtmlButton uploadButton = (HtmlButton) (uploadPage.getElementById("upload-1"));
+        HtmlButton uploadButton = (HtmlButton) (uploadPage.getElementById("upload-2"));
         uploadButton.removeAttribute("disabled");
         HtmlPage result = uploadButton.click();
         List<DomElement> tables = result.getElementsByTagName("table");
